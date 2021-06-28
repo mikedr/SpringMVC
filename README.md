@@ -9,5 +9,5 @@ A big picture of how the proces flows:
 4. The controller will send the model back to the front controller which will pass that model to the view template.
 5. The view template is basically a HTML page or a JSP page that will take the data and render a response to the prowser.
 
-![alt text](https://github.com/mikedr/SpringMVC/Images/001-MVCdiagram.png)
+![alt text](https://github.com/mikedr/SpringMVC/blob/main/Images/001-MVCdiagram.png)
 
