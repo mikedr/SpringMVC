@@ -1,6 +1,6 @@
 # Spring MVC
 
-##Introduction
+## Introduction
 
 Is a framework for building web applications in Java based on the MVC pattern and levaraging features of Spring Core (CI, DI)
 
@@ -16,8 +16,18 @@ A big picture of how the proces flows:
 
 As a developers we have to create:
 
-*Model objects (Green)
-*View templates (Red)
-*Controller classes (White)
+* Model objects (Green)
+* View templates (Red)
+* Controller classes (White)
 
+### Controller
 
+When the front controller has a request it delegates the request to the controller. The controller handles the request (maybe reading a form data), stores o retrieves data from the database or web service and places data in the Model to pass it to the view template. 
+
+### Model
+
+Contains the data. Data can be any object / collection.
+
+### View template
+
+Spring MVC is flaxible, it supports many view templates. The most commons are JSP (Java Server Pages) + JSTL (JSP standard tag library). So the model data comes over the template so the JSP page can read the model data and display it. 
