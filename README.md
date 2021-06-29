@@ -3,7 +3,7 @@ Is a framework for building web applications in Java based on the MVC pattern an
 
 A big picture of how the proces flows:
 
-1. We have a request coming from the browser which it'll encounter the Spring MVC front controller.
+1. We have a request coming from the browser which it'll encounter the Spring MVC front controller, which is known as **DispatcherServlet**.
 2. The Spring MVC front controller will create a Model and it will delegate the request to a controller.
 3. The controller contains the business logic.
 4. The controller will send the model back to the front controller which will pass that model to the view template.
@@ -11,3 +11,8 @@ A big picture of how the proces flows:
 
 <img style="float: center;" src="https://github.com/mikedr/SpringMVC/blob/main/Images/001-MVCdiagram.png">
 
+As a developers we have to create:
+
+.Model objects (Green)
+.View templates (Red)
+.Controller classes (White)
