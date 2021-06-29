@@ -1,4 +1,7 @@
 # Spring MVC
+
+##Introduction
+
 Is a framework for building web applications in Java based on the MVC pattern and levaraging features of Spring Core (CI, DI)
 
 A big picture of how the proces flows:
@@ -13,6 +16,8 @@ A big picture of how the proces flows:
 
 As a developers we have to create:
 
-.Model objects (Green)
-.View templates (Red)
-.Controller classes (White)
+*Model objects (Green)
+*View templates (Red)
+*Controller classes (White)
+
+
