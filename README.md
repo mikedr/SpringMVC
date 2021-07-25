@@ -16,3 +16,16 @@ As a developers we have to create:
 .Model objects (Green)
 .View templates (Red)
 .Controller classes (White)
+
+## Spring MVC Configuration Process
+
+Add configurations to file: WEB-INF/web.xml
+
+1. Configure Spring MVC Disptcher Servlet
+2. Set up URL mappings to Spring MVC Dispatcher Servlet.
+
+Add configurations to file: WEB-INF/my-app-servlet.xml
+
+3. Add support for Spring component scanning
+4. Add support for conversion, format and validation
+5. Configure Spring MVC View Resolver
