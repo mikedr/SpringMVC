@@ -44,3 +44,16 @@ Add configurations to file: WEB-INF/my-app-servlet.xml
 3. Add support for Spring component scanning
 4. Add support for conversion, format and validation
 5. Configure Spring MVC View Resolver
+
+## Creating a Spring Home Controller and View
+
+1. Create a controller
+Annotate a class with @Controller
+
+2. Define a controller method
+
+3. Add request mapping to controller method
+Annotate a class with @RequestMapping("/")
+
+4. Return view name
+5. Develop view page
