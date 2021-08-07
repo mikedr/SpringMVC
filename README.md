@@ -48,11 +48,13 @@ Add configurations to file: WEB-INF/my-app-servlet.xml
 ## Creating a Spring Home Controller and View
 
 1. Create a controller
+
 Annotate a class with @Controller
 
 2. Define a controller method
 
 3. Add request mapping to controller method
+
 Annotate a class with @RequestMapping("/")
 
 4. Return view name
