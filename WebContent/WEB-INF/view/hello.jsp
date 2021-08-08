@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Hello - Input Form</title>
 </head>
 <body>
-	<h1>Precios App</h1>
-	<br><br>
-	<a href="showFrom">Hello form</a>
+	Hello ${param.user}
 </body>
 </html>

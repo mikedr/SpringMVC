@@ -4,11 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Hello - Input Form</title>
 </head>
 <body>
-	<h1>Precios App</h1>
-	<br><br>
-	<a href="showFrom">Hello form</a>
+	<form action="processForm" method="GET">
+		<input type="text" name="user"
+			placeholder="Cual es su nombre?"/>
+		<input type="submit"/>
+	</form>
 </body>
 </html>
