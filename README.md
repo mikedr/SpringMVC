@@ -59,3 +59,11 @@ Annotate a class with @RequestMapping("/")
 
 4. Return view name
 5. Develop view page
+
+## Spring model
+
+The **model** is a container for the application data. In the **controller** we can put anything in the **model** (strings, objects, info from database, etc.).
+Then, the **view** page (JSP) can access data from model.
+
+
+

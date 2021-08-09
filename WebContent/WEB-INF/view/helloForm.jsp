@@ -7,7 +7,7 @@
 <title>Hello - Input Form</title>
 </head>
 <body>
-	<form action="processForm" method="GET">
+	<form action="processFormModel" method="GET">
 		<input type="text" name="user"
 			placeholder="Cual es su nombre?"/>
 		<input type="submit"/>

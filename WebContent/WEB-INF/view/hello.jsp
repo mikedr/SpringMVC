@@ -7,6 +7,6 @@
 <title>Hello - Input Form</title>
 </head>
 <body>
-	Hello ${param.user}
+	${message}
 </body>
 </html>
